@@ -18,11 +18,33 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-
-				<section data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
-					<img src="slide1.png" alt="Slide 1"  style="border: 5px solid white;" >
+				<section data-transition="zoom" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide1.png" alt="Slide 1"  style="border: 5px solid white;">
 				</section>
-				<section>Slide 2</section>
+				<section data-transition="fade" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide2.png" alt="Slide 2"  style="border: 5px solid white;">
+				</section>
+				<section data-transition="slide" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide3.png" alt="Slide 3"  style="border: 5px solid white;">
+				</section>
+				<section data-transition="convex" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide4.png" alt="Slide 4"  style="border: 5px solid white;">
+				</section>
+				<section data-transition="concave" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide5.png" alt="Slide 5"  style="border: 5px solid white;">
+				</section>				
+				<section data-transition="concave" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide6.png" alt="Slide 6"  style="border: 5px solid white;" >
+				</section>
+				<section data-transition="concave" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide7.png" alt="Slide 7"  style="border: 5px solid white;" >
+				</section>
+				<section data-transition="concave" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide8.png" alt="Slide 8"  style="border: 5px solid white;" >
+				</section>
+				<section data-transition="concave" data-background="linear-gradient(to right, #9935df, #2ab5c8, #364de8)">
+					<img src="slide9.png" alt="Slide 9"  style="border: 5px solid white;" >
+				</section>
 			</div>
 		</div>
 
@@ -37,7 +59,7 @@
 			Reveal.initialize({
 				hash: true,
 					
-
+				transition: 'convex', // Transição padrão para todos os slides
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
